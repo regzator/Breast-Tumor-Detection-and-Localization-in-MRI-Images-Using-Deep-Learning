@@ -1,4 +1,4 @@
-# BUSI Breast Ultrasound Image Segmentation
+# Breast Ultrasound Image Tumor Segmentation
 ### A Comparative Study of Attention U-Net++ and Residual Attention U-Net++
 
 ## Overview
