@@ -89,14 +89,6 @@ These transformations are applied consistently to both images and segmentation m
 
 Both models use a weighted hybrid loss function combining Binary Cross-Entropy and Dice Loss.
 
-\[
-\mathcal{L}_{hybrid}
-=
-\mathcal{L}_{weighted BCE}
-+
-\mathcal{L}_{Dice}
-\]
-
 The weighted BCE assigns a higher penalty to errors on lesion pixels, while the Dice component encourages overlap between predicted and ground-truth masks.
 
 ### Evaluation Metrics
